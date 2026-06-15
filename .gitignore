@@ -1,0 +1,27 @@
+# dependencies
+node_modules/
+frontend/node_modules/
+
+# build
+dist/
+frontend/dist/
+
+# terraform local files
+**/.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfvars.json
+crash.log
+crash.*.log
+
+# env
+.env
+.env.*
+frontend/.env
+frontend/.env.*
+
+# system/editor
+.DS_Store
+.vscode/
+.idea/
