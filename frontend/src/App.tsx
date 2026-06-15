@@ -9,7 +9,8 @@ import {
 import "./App.css";
 
 import { apiBaseUrl, clanBadges, missions, routeStops } from "./data";
-const logoUrl = `${import.meta.env.BASE_URL}logo-clan-sirio.png`;
+const logoUrl = `${import.meta.env.BASE_URL}sirio.png`;
+const logoFSE = `${import.meta.env.BASE_URL}giglio.png`;
 
 // ─── Types ────────────────────────────────────────────────────────────────────
 
@@ -269,7 +270,7 @@ function App() {
           <section className="home-login-card">
             <div className="home-login-header">
               <img
-                src={logoUrl}
+                src={logoFSE}
                 alt="Logo Clan Sirio"
                 className="home-login-symbol"
               />

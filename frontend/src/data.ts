@@ -1,3 +1,5 @@
+const assetBaseUrl = import.meta.env.BASE_URL;
+
 export const apiBaseUrl =
   "https://7342l4r814.execute-api.eu-west-1.amazonaws.com";
 
@@ -235,7 +237,7 @@ export const clanBadges = [
     id: "fuochista",
     title: "Fuochista",
     emoji: "🔥",
-    imageUrl: "/achivements/fuochista.png",
+    imageUrl:`${assetBaseUrl}achivements/fuochista.png`,
     description: "Hai acceso il primo fuoco della missione.",
     unlockHint: "Completa e fai approvare la tua prima missione.",
   },
@@ -243,7 +245,7 @@ export const clanBadges = [
     id: "gufo-clan",
     title: "Gufo del Clan",
     emoji: "🌙",
-    imageUrl: "/achivements/gufo.png",
+    imageUrl: `${assetBaseUrl}achivements/gufo.png`,
     description:
       "Per chi studia tedesco quando il campo dorme e la route si prepara in silenzio.",
     unlockHint: "Carica una prova dopo le 22:00 o prima delle 6:00.",
@@ -252,7 +254,7 @@ export const clanBadges = [
     id: "paparazzo-pirna",
     title: "Paparazzo di Pirna",
     emoji: "📸",
-    imageUrl: "/achivements/fotografo.png",
+    imageUrl: `${assetBaseUrl}achivements/fotografo.png`,
     description:
       "Documentare tutto è uno stile di vita: prove, screenshot, dettagli e missioni.",
     unlockHint: "Carica almeno 5 prove.",
@@ -261,7 +263,7 @@ export const clanBadges = [
     id: "kaiser-cambusa",
     title: "Kaiser della Cambusa",
     emoji: "👨‍🍳",
-    imageUrl: "/achivements/kaiser.png",
+    imageUrl: `${assetBaseUrl}achivements/kaiser.png`,
     description:
       "Domini le missioni dedicate al cibo, alla spesa e alla sopravvivenza linguistica in cambusa.",
     unlockHint: "Completa tutte le missioni della categoria food.",
@@ -270,7 +272,7 @@ export const clanBadges = [
     id: "zaino-pronto",
     title: "Zaino Sempre Pronto",
     emoji: "🎒",
-    imageUrl: "/achivements/zaino.png",
+    imageUrl: `${assetBaseUrl}achivements/zaino.png`,
     description:
       "Hai dimostrato continuità e preparazione: lo zaino linguistico inizia a pesare.",
     unlockHint: "Completa 6 missioni.",
@@ -279,7 +281,7 @@ export const clanBadges = [
     id: "kaiser-clan",
     title: "Kaiser del Clan",
     emoji: "👑",
-    imageUrl: "/achivements/kaiser-clan.png",
+    imageUrl: `${assetBaseUrl}achivements/kaiser-clan.png`,
     description:
       "Hai quasi completato il viaggio e guidato il tuo passaporto fino alla fase finale.",
     unlockHint: "Completa 18 missioni.",
@@ -288,7 +290,7 @@ export const clanBadges = [
     id: "aquila-sassonia",
     title: "Aquila di Sassonia",
     emoji: "🦅",
-    imageUrl: "/achivements/aquila.png",
+    imageUrl: `${assetBaseUrl}achivements/aquila.png`,
     description:
       "Hai completato tutto il percorso e conquistato la Sassonia missione dopo missione.",
     unlockHint: "Completa tutte le 21 missioni.",

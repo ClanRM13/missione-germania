@@ -25,3 +25,7 @@ frontend/.env.*
 .DS_Store
 .vscode/
 .idea/
+<<<<<<< HEAD
+=======
+.DS_Store
+>>>>>>> 5a43ab3 (Deploy frontend to GitHub Pages)
